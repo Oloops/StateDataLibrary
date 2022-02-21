@@ -1,7 +1,7 @@
 # StateDataLibrary
 //This function takes a state name as a parameter as a string and will give the user the state code that corresponds with the name of state. It will loop through the list stateName and check to see if the state name at index i is equal to the parameter, if they are equal it will return the state code at index i.
 
-//state {sting} - the name of a state in the US used to find the corresponsing state code
+//state {string} - the name of a state in the US used to find the corresponsing state code
 
 //return {string} - the matching state code or an error message
 
