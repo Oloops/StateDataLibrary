@@ -1,12 +1,14 @@
 # StateDataLibrary
-//This function takes a state name as a parameter as a string and will give the user the state code that corresponds with the name of state. It will loop through the list stateName and check to see if the state name at index i is equal to the parameter, if they are equal it will return the state code at index i.
 
-//state {string} - the name of a state in the US used to find the corresponsing state code
 
-//return {string} - the matching state code or an error message
+##### This function takes a state name as a parameter as a string and will give the user the state code that corresponds with the name of state. It will loop through the list stateName and check to see if the state name at index i is equal to the parameter, if they are equal it will return the state code at index i.
 
-function getCodeName(state)
+###### state {string} - the name of a state in the US used to find the corresponsing state code
 
+###### return {string} - the matching state code or an error message
+
+**`function getCodeName(state)`**
+#
 //This function takes a year as a parameter as a number and gives the user a list of states whose admission year was before or on the year entered by the user. It will loop through the list stateName and check to see if the stateYear at index i is less than or equal to the year entered by the user. The function will return the list of matching states that fit the parameters in the if statement.
 
 //year {number} - a year used to compare to the states admission years
