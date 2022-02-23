@@ -39,4 +39,4 @@
 
 ###### return {string} - the matching state or a message stating there are no matching states
 
-**` function findmedianIncome(income) `**
+**` function findMedianIncome(income) `**
